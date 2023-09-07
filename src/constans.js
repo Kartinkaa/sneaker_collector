@@ -1,5 +1,5 @@
 export const ROUTES = {
-  START_PAGE: '/',
+  HOME: '/',
   COLLECTION: '/collection',
 }
 

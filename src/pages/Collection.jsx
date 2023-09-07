@@ -31,7 +31,7 @@ const StyledButton = styled(Button)`
   }
 `
 
-export default function CollectionPage() {
+export default function Collection() {
   const [collection, setCollection] = React.useState([])
   const [filteredCollection, setFilteredCollection] = React.useState([])
   const [isLoading, setIsLoading] = React.useState(false)

@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom'
-import StartPage from './screens/StartPage'
+import Home from './pages/Home'
+import Collection from './pages/Collection'
 import { ROUTES } from './constans'
-import CollectionPage from './screens/CollectionPage'
 
 function App() {
   return (
     <Routes>
-      <Route path={`${ROUTES.START_PAGE}`} element={<StartPage />} />
-      <Route path={`${ROUTES.COLLECTION}`} element={<CollectionPage />} />
+      <Route path={`${ROUTES.HOME}`} element={<Home />} />
+      <Route path={`${ROUTES.COLLECTION}`} element={<Collection />} />
     </Routes>
   )
 }
